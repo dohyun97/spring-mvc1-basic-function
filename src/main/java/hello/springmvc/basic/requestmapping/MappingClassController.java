@@ -20,7 +20,7 @@ public class MappingClassController {
         return "get userId = "+userId;
     }
 
-    @PatchMapping("/{userId")
+    @PatchMapping("/{userId}")
     public String updateUser(@PathVariable int userId){
         return "update userId = "+userId;
     }
